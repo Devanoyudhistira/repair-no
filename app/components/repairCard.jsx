@@ -9,7 +9,7 @@ export default function Repaircard({ image, namabarang, atasnama, status }) {
 
     function statuscolor() {
         if (statustask === "selesai") {
-            return "bg-green-500"
+            return "bg-green-300"
         }
         else if (statustask === "progress") {
             return "bg-sky-300"
